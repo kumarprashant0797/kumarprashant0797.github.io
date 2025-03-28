@@ -2,24 +2,47 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
     padding: 20px;
     margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     background-color: #333;
     color: white;
+}
+
+.project {
+    margin-bottom: 20px;
 }
